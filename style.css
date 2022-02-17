@@ -1,32 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding:25px;
+}
+
 /* you can make a commend */
 body{
     background-image: url("fruit3.jpg");
-    background-repeat: 100%100 ;
-    
-    
+    background-repeat: no-repeat ;
+    background-size:cover;
 
 }
 
+.images{
+    display:flex;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+h1, h2 {
+    display:flex;
+    justify-content:center;
+    color:white;
+;}
  
 
 p{
-    color: rgb(175, 164, 0);
+    text-align:center;
+    color: rgb(255, 255, 255);
 }
 
 #nav {
 display: flex;
+background-color:white;
 justify-content: space-evenly;
 flex-wrap:wrap ;
 }
 
 #nav a{
-    color:yellow;
+    color:rgb(6, 16, 150);
     border: rgb(233, 180, 81);
     border-radius: green;
     text-decoration: none;
     font-family:fantasy;
 }
-
 
 
 h1 {

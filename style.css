@@ -1,0 +1,49 @@
+/* you can make a commend */
+body{
+    background-image: url("fruit3.jpg");
+    background-repeat: 100%100 ;
+    
+    
+
+}
+
+ 
+
+p{
+    color: rgb(175, 164, 0);
+}
+
+#nav {
+display: flex;
+justify-content: space-evenly;
+flex-wrap:wrap ;
+}
+
+#nav a{
+    color:yellow;
+    border: rgb(233, 180, 81);
+    border-radius: green;
+    text-decoration: none;
+    font-family:fantasy;
+}
+
+
+
+h1 {
+color: rgb(255, 177, 177);
+font: size 60px;
+
+}
+
+
+
+h2 {
+color: rgb(255, 175, 175);
+font: size 40;
+}
+
+
+
+/* this is how we target a HTML
+element*/
+
